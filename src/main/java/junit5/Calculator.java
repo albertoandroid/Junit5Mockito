@@ -23,7 +23,7 @@ public class Calculator {
         return result;
     }
 
-    public int subtrat(int n1, int n2){
+    public int subtract(int n1, int n2){
         result = n1 - n2;
         return result;
     }
