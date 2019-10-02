@@ -1,5 +1,6 @@
 package junit5;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -29,10 +30,16 @@ class CalculatorTest {
     restar(int a, int b)            |a = 10, b=20       |-10
      */
 
+    @BeforeEach
+    public void setUp(){
+        calculator = new Calculator();
+        System.out.println("@BeforeEach -> setUp()");
+    }
+
     @Test
     public void calculatorNotNullTest(){
-        calculator = new Calculator();
         assertNotNull(calculator, "Calculator debe ser not null");
+        System.out.println("@Test -> calculatorNotNullTest()");
     }
 
 
