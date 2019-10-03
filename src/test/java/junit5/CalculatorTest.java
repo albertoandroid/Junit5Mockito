@@ -56,6 +56,23 @@ class CalculatorTest {
         System.out.println("@Test -> calculatorNullTest()");
     }
 
+    /*
+    Método a Probar                 |      Entrada      |       Salida Esperada
+    add(int a, int b)               |a = 10, b=20       |30
+     */
+
+    @Test
+    public void addAssertTest(){
+        //1.- SetUp
+        int resultadoEsperado = 30;
+        int resultadoActual;
+        //2.- Action
+        resultadoActual = calculator.add(10,20);
+        //3.- Assert
+        assertEquals(resultadoEsperado, resultadoActual);
+        System.out.println("@Test -> addAssertTest()");
+    }
+
 
 
 
