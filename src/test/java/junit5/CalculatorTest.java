@@ -118,6 +118,17 @@ class CalculatorTest {
         assertEquals(-10, calculator.subtract(10,20));
     }
 
+    @Test
+    public void divide_ValidInput_ValidResultExpected_Test(){
+        assertEquals(2, calculator.divide(10,5));
+    }
+
+    @Test
+    public void divide_InValidInput_Test(){
+        fail("Fallo detectado manualmente - No se puede dividir por cero");
+        calculator.divide(10,0);
+    }
+
 
 
 
