@@ -129,6 +129,11 @@ class CalculatorTest {
         calculator.divide(10,0);
     }
 
+    @Test
+    public void divide_InValidInput_ExpectedException_Test(){
+        assertThrows(ArithmeticException.class, ()->calculator.divideByZero(2,0), "No se puede dividir por cero");
+    }
+
 
 
 
