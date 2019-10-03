@@ -94,7 +94,28 @@ class CalculatorTest {
        // assertSame(calculator1, calculator2);
 
         assertNotSame(calculator1, calculator2);
-        assertNotSame(calculator1, calculator3);
+        //assertNotSame(calculator1, calculator3);
+
+        assertEquals("alberto", "alberto");
+       // assertEquals("alberto", "albert", "Ha fallado nuestro metodo String");
+
+        assertEquals(1, 1.4, 0.5);
+       // assertEquals(1, 1.6, 0.5);
+    }
+
+    @Test
+    public void add_ValidInput_ValidExpected_Test(){
+        assertEquals(11, calculator.add(7,4));
+    }
+
+    @Test
+    public void subtract_ValidInput_ValidExpected_Test(){
+        assertEquals(11, calculator.subtract(15,4));
+    }
+
+    @Test
+    public void subtract_ValidInput_ValidNegativeResultExpected_Test(){
+        assertEquals(-10, calculator.subtract(10,20));
     }
 
 
