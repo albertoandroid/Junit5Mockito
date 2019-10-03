@@ -73,6 +73,30 @@ class CalculatorTest {
         System.out.println("@Test -> addAssertTest()");
     }
 
+    @Test
+    public void addTest(){
+        assertEquals(30, calculator.add(10,20));
+    }
+
+    @Test
+    public void assertTypesTest(){
+        assertTrue(1 == 1);
+        //assertTrue(1 == 2);
+
+        assertNull(calculatorNull);
+        assertNotNull(calculator);
+
+        Calculator calculator1 = new Calculator();
+        Calculator calculator2 = new Calculator();
+        Calculator calculator3 = calculator1;
+
+        assertSame(calculator1, calculator3);
+       // assertSame(calculator1, calculator2);
+
+        assertNotSame(calculator1, calculator2);
+        assertNotSame(calculator1, calculator3);
+    }
+
 
 
 
