@@ -4,6 +4,13 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
+
+
 /**
  * Created by albertopalomarrobledo on 2/10/19.
  */
@@ -185,5 +192,35 @@ class CalculatorTest {
         }
     }
 
+    /*
+    Ejemplo en nuestra división queremos hacer 5 pruebas
+    Positivo / Positivo = Positivo
+    Positivo / Negativo = Negativo
+    Negativo / Positivo = Negativo
+    Negativo / Negativo = Positivo
+    Positivo / 0 = Excepción
+    Método a Probar                 |      Entrada      |       Salida Experarada
+    dividir(int a, int b)           |a = 6, b=2         |3
+    dividir(int a, int b)           |a = 6, b=-2        |-3
+    dividir(int a, int b)           |a = -6, b=2        |-3
+    dividir(int a, int b)           |a = -6, b=-2       |3
+    dividir(int a, int b)           |a = -6, b=0        |Excepción
+     */
+
+    @ParameterizedTest(name = "{index} => a={0}, b={1}, sum={2}")
+    @MethodSource("addProviderData")
+    public void addParameterizedTest(int a, int b, int sum){
+        assertEquals(sum, calculator.add(a, b));
+    }
+
+    private static Stream<Arguments> addProviderData(){
+        return Stream.of(
+                Arguments.of(6,2,8),
+                Arguments.of(-6,-2,-10),
+                Arguments.of(6,-2,4),
+                Arguments.of(-6,2,-4),
+                Arguments.of(6,0,6)
+        );
+    }
 
 }
