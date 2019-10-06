@@ -8,6 +8,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
+import java.time.Duration;
 import java.util.stream.Stream;
 
 
@@ -221,6 +222,13 @@ class CalculatorTest {
                 Arguments.of(-6,2,-4),
                 Arguments.of(6,0,6)
         );
+    }
+
+    @Test
+    public void timeOut_Test(){
+        assertTimeout(Duration.ofMillis(2000), () ->{
+            calculator.longTaskOperation();
+        });
     }
 
 }
