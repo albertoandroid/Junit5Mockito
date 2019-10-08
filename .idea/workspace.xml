@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946b51d8-e317-4e4b-970b-64adae5ffc23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mockito/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mockito/ValidNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit5/TemperatureCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/ValidNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/AddCreateMock1Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ValidNumberTest">
+  <component name="RunManager" selected="JUnit.AddCreateMock1Test">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -63,6 +61,22 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddCreateMock1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito" />
+      <option name="MAIN_CLASS_NAME" value="mockito.AddCreateMock1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,23 +92,6 @@
       <option name="PACKAGE_NAME" value="junit5" />
       <option name="MAIN_CLASS_NAME" value="junit5.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.divide_InValidInput_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5" />
-      <option name="MAIN_CLASS_NAME" value="junit5.CalculatorTest" />
-      <option name="METHOD_NAME" value="divide_InValidInput_Test" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,18 +207,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.CalculatorTest.divide_InValidInput_Test" />
       <item itemvalue="JUnit.TemperatureCalculatorTest.toFahrenheitTest" />
       <item itemvalue="JUnit.TemperatureCalculatorTest" />
       <item itemvalue="JUnit.ValidNumberTest" />
+      <item itemvalue="JUnit.AddCreateMock1Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddCreateMock1Test" />
         <item itemvalue="JUnit.ValidNumberTest" />
         <item itemvalue="JUnit.TemperatureCalculatorTest" />
         <item itemvalue="JUnit.TemperatureCalculatorTest.toFahrenheitTest" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.divide_InValidInput_Test" />
       </list>
     </recent_temporary>
   </component>
