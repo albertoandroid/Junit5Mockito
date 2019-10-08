@@ -48,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddCreateMock1Test">
+  <component name="RunManager" selected="JUnit.AddCreateMock2Test">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -77,16 +77,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddCreateMock2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit5.*" />
+          <option name="PATTERN" value="mockito.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit5" />
-      <option name="MAIN_CLASS_NAME" value="junit5.CalculatorTest" />
+      <option name="PACKAGE_NAME" value="mockito" />
+      <option name="MAIN_CLASS_NAME" value="mockito.AddCreateMock2Test" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -202,19 +202,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.TemperatureCalculatorTest.toFahrenheitTest" />
       <item itemvalue="JUnit.TemperatureCalculatorTest" />
       <item itemvalue="JUnit.ValidNumberTest" />
       <item itemvalue="JUnit.AddCreateMock1Test" />
+      <item itemvalue="JUnit.AddCreateMock2Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddCreateMock2Test" />
         <item itemvalue="JUnit.AddCreateMock1Test" />
         <item itemvalue="JUnit.ValidNumberTest" />
         <item itemvalue="JUnit.TemperatureCalculatorTest" />
         <item itemvalue="JUnit.TemperatureCalculatorTest.toFahrenheitTest" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
