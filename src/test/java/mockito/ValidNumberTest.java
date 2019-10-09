@@ -35,4 +35,19 @@ class ValidNumberTest {
         assertEquals(false, validNumber.check("5"));
     }
 
+    @Test
+    public void checkZeroTest(){
+        assertEquals(true, validNumber.checkZero(-57));
+    }
+
+    @Test
+    public void checkZeroStringTest(){
+        assertEquals(false, validNumber.checkZero("5"));
+    }
+
+    @Test
+    public void checkZero0Test(){
+        assertThrows(ArithmeticException.class, ()->validNumber.checkZero(0));
+    }
+
 }
