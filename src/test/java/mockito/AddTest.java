@@ -32,4 +32,16 @@ class AddTest {
         assertEquals(false, checkNumber);
     }
 
+    @Test
+    public void addMockExceptionTest(){
+        when(validNumber.checkZero(0)).thenThrow(new ArithmeticException("No podemos aceptar cero"));
+        Exception exception = null;
+        try{
+            validNumber.checkZero(0);
+        }catch (ArithmeticException e){
+            exception = e;
+        }
+        assertNotNull(exception);
+    }
+
 }

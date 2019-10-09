@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946b51d8-e317-4e4b-970b-64adae5ffc23" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/mockito/ValidNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito/ValidNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mockito/AddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito/AddTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ValidNumberTest">
+  <component name="RunManager" selected="JUnit.AddTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -211,8 +211,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ValidNumberTest" />
         <item itemvalue="JUnit.AddTest" />
+        <item itemvalue="JUnit.ValidNumberTest" />
         <item itemvalue="JUnit.AddCreateMock2Test" />
         <item itemvalue="JUnit.AddCreateMock1Test" />
         <item itemvalue="JUnit.TemperatureCalculatorTest" />
