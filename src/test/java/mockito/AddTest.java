@@ -44,4 +44,13 @@ class AddTest {
         assertNotNull(exception);
     }
 
+    @Test
+    public void addRealMethodTest(){
+        when(validNumber.check(3)).thenCallRealMethod();
+        assertEquals(true, validNumber.check(3));
+
+        when(validNumber.check("3")).thenCallRealMethod();
+        assertEquals(false, validNumber.check("3"));
+    }
+
 }
