@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946b51d8-e317-4e4b-970b-64adae5ffc23" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockito/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockito/Add.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mockito/AddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito/AddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mockito/AddTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mockito/AddTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,22 +66,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddCreateMock1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mockito.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mockito" />
-      <option name="MAIN_CLASS_NAME" value="mockito.AddCreateMock1Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AddCreateMock2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <extension name="coverage">
@@ -122,6 +109,23 @@
       <option name="PACKAGE_NAME" value="mockito" />
       <option name="MAIN_CLASS_NAME" value="mockito.AddTest" />
       <option name="METHOD_NAME" value="addDoubleToIntThenAnswerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddTest.patterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito" />
+      <option name="MAIN_CLASS_NAME" value="mockito.AddTest" />
+      <option name="METHOD_NAME" value="patterTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -205,18 +209,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.ValidNumberTest" />
-      <item itemvalue="JUnit.AddCreateMock1Test" />
       <item itemvalue="JUnit.AddCreateMock2Test" />
       <item itemvalue="JUnit.AddTest" />
       <item itemvalue="JUnit.AddTest.addDoubleToIntThenAnswerTest" />
+      <item itemvalue="JUnit.AddTest.patterTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AddTest" />
+        <item itemvalue="JUnit.AddTest.patterTest" />
         <item itemvalue="JUnit.AddTest.addDoubleToIntThenAnswerTest" />
         <item itemvalue="JUnit.ValidNumberTest" />
         <item itemvalue="JUnit.AddCreateMock2Test" />
-        <item itemvalue="JUnit.AddCreateMock1Test" />
       </list>
     </recent_temporary>
   </component>

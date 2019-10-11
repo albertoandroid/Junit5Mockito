@@ -9,6 +9,7 @@ import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.when;
 
 class AddTest {
@@ -67,5 +68,37 @@ class AddTest {
         when(validNumber.doubleToInt(7.7)).thenAnswer(answer);
         assertEquals(14, add.addInt(8.7));
     }
+
+    //Arrange
+    //Act
+    //Assert
+
+    //Given
+    //When
+    //Then
+
+    @Test
+    public void patterTest(){
+        //Arrange
+        when(validNumber.check(4)).thenReturn(true);
+        when(validNumber.check(5)).thenReturn(true);
+        //Act
+        int result = add.add(4,5);
+        //Assert
+        assertEquals(9, result);
+    }
+
+    @Test
+    public void patterBDDTest(){
+        //Given
+        given(validNumber.check(4)).willReturn(true);
+        given(validNumber.check(5)).willReturn(true);
+        //When
+        int result = add.add(4,5);
+        //Then
+        assertEquals(9, result);
+    }
+
+
 
 }
