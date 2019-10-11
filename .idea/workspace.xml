@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="946b51d8-e317-4e4b-970b-64adae5ffc23" name="Default" comment="" />
+    <list default="true" id="946b51d8-e317-4e4b-970b-64adae5ffc23" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockito/ValidNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockito/ValidNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mockito/ValidNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito/ValidNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mockito/ValidNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mockito/ValidNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mockito/ValidNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mockito/ValidNumberTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddTest">
+  <component name="RunManager" selected="JUnit.ValidNumberTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -209,8 +215,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddTest" />
         <item itemvalue="JUnit.ValidNumberTest" />
+        <item itemvalue="JUnit.AddTest" />
         <item itemvalue="JUnit.AddCreateMock2Test" />
         <item itemvalue="JUnit.AddCreateMock1Test" />
         <item itemvalue="JUnit.TemperatureCalculatorTest" />

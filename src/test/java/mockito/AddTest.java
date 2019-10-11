@@ -53,4 +53,9 @@ class AddTest {
         assertEquals(false, validNumber.check("3"));
     }
 
+    @Test
+    public void addDoubleToIntThenAnswerTest(){
+
+    }
+
 }
