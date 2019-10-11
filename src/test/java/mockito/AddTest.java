@@ -102,6 +102,16 @@ class AddTest {
     }
 
     @Test
+    public void argumentMatcherTest(){
+        //Given
+        given(validNumber.check(anyInt())).willReturn(true);
+        //When
+        int result = add.add(4,5);
+        //Then
+        assertEquals(9, result);
+    }
+
+    @Test
     public void addPrintTest(){
         //Given
         given(validNumber.check(4)).willReturn(true);
