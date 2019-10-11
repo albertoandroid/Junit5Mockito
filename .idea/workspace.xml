@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="946b51d8-e317-4e4b-970b-64adae5ffc23" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/mockito/AddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito/AddTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mockito/AddTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mockito/AddTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

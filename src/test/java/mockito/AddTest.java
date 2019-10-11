@@ -121,6 +121,13 @@ class AddTest {
         //Then
         verify(validNumber).check(4);
         //verify(validNumber, times(2)).check(4);
+        verify(validNumber, never()).check(99);
+        verify(validNumber, atLeast(1)).check(4);
+        verify(validNumber, atMost(3)).check(4);
+
+        verify(print).showMessage(9);
+        verify(print, never()).showError();
+
     }
 
 
