@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946b51d8-e317-4e4b-970b-64adae5ffc23" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mockito/AddTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito/AddTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddTest">
+  <component name="RunManager" selected="JUnit.AddTest.mockTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -75,23 +74,6 @@
       <option name="PACKAGE_NAME" value="mockito" />
       <option name="MAIN_CLASS_NAME" value="mockito.AddTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddTest.addDoubleToIntThenAnswerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mockito.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mockito" />
-      <option name="MAIN_CLASS_NAME" value="mockito.AddTest" />
-      <option name="METHOD_NAME" value="addDoubleToIntThenAnswerTest" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTest.patterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddTest.mockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +123,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="mockito" />
       <option name="MAIN_CLASS_NAME" value="mockito.AddTest" />
-      <option name="METHOD_NAME" value="patterTest" />
+      <option name="METHOD_NAME" value="mockTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddTest.spyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito" />
+      <option name="MAIN_CLASS_NAME" value="mockito.AddTest" />
+      <option name="METHOD_NAME" value="spyTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -209,18 +208,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AddTest" />
-      <item itemvalue="JUnit.AddTest.addDoubleToIntThenAnswerTest" />
-      <item itemvalue="JUnit.AddTest.patterTest" />
       <item itemvalue="JUnit.AddTest.addPrintTest" />
       <item itemvalue="JUnit.AddTest.captorTest" />
+      <item itemvalue="JUnit.AddTest.spyTest" />
+      <item itemvalue="JUnit.AddTest.mockTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddTest.mockTest" />
+        <item itemvalue="JUnit.AddTest.spyTest" />
         <item itemvalue="JUnit.AddTest" />
         <item itemvalue="JUnit.AddTest.captorTest" />
         <item itemvalue="JUnit.AddTest.addPrintTest" />
-        <item itemvalue="JUnit.AddTest.patterTest" />
-        <item itemvalue="JUnit.AddTest.addDoubleToIntThenAnswerTest" />
       </list>
     </recent_temporary>
   </component>
