@@ -2,9 +2,7 @@ package mockito;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
+import org.mockito.*;
 import org.mockito.invocation.InvocationOnMock;
 import org.mockito.stubbing.Answer;
 
@@ -20,6 +18,9 @@ class LoginTest {
 
     @Mock
     private WebService webService;
+
+    @Captor
+    private ArgumentCaptor<Callback> callbackArgumentCaptor;
 
     @BeforeEach
     public void setUp(){
@@ -64,6 +65,21 @@ class LoginTest {
         login.doLogin();
         verify(webService, times(1)).login(anyString(), anyString(), any(Callback.class));
         assertEquals(login.isLogin, false);
+    }
+
+    @Test
+    public void doLoginCaptorTest(){
+        login.doLogin();
+        verify(webService, times(1)).login(anyString(), anyString(), callbackArgumentCaptor.capture());
+        assertEquals(login.isLogin, false);
+
+        Callback callback = callbackArgumentCaptor.getValue();
+        callback.onSuccess("OK");
+        assertEquals(login.isLogin, true);
+
+        callback.onFail("Error");
+        assertEquals(login.isLogin, false);
+
     }
 
 }
