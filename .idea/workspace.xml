@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946b51d8-e317-4e4b-970b-64adae5ffc23" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mockito/Callback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mockito/WebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockito/WebService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mockito/WebServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito/WebServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
