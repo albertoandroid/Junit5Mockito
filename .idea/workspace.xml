@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946b51d8-e317-4e4b-970b-64adae5ffc23" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -50,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WebServiceTest">
+  <component name="RunManager" selected="JUnit.LoginTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -59,22 +60,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mockito.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mockito" />
-      <option name="MAIN_CLASS_NAME" value="mockito.AddTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTest.spyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTest" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +90,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mockito" />
-      <option name="MAIN_CLASS_NAME" value="mockito.AddTest" />
-      <option name="METHOD_NAME" value="spyTest" />
+      <option name="MAIN_CLASS_NAME" value="mockito.LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.doLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito" />
+      <option name="MAIN_CLASS_NAME" value="mockito.LoginTest" />
+      <option name="METHOD_NAME" value="doLogin" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -206,19 +207,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AddTest" />
-      <item itemvalue="JUnit.AddTest.spyTest" />
       <item itemvalue="JUnit.AddTest.mockTest" />
       <item itemvalue="JUnit.WebServiceTest" />
       <item itemvalue="JUnit.WebServiceTest.loginTest" />
+      <item itemvalue="JUnit.LoginTest.doLogin" />
+      <item itemvalue="JUnit.LoginTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.LoginTest.doLogin" />
         <item itemvalue="JUnit.WebServiceTest" />
         <item itemvalue="JUnit.WebServiceTest.loginTest" />
         <item itemvalue="JUnit.AddTest.mockTest" />
-        <item itemvalue="JUnit.AddTest.spyTest" />
-        <item itemvalue="JUnit.AddTest" />
       </list>
     </recent_temporary>
   </component>
